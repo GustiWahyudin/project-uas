@@ -1,0 +1,47 @@
+body{
+		background: #5F9EA0;
+		font-family: arial;
+}
+.texton{
+	text-align: center;
+	text-shadow: 6px 6px 6px #808080;
+	color: #fff;
+	font-size: 25px;
+	margin-top: 75px;
+}
+.container{
+	background: #778899;
+	width: 375px;
+	height: 400px;
+	padding: 10px 10px;
+	margin: auto;
+	box-shadow: 3px 3px 3px #708090;
+}
+.label{
+	color: #fff;
+	font-size: 12px;
+	margin-left: 7px; 
+}
+input{
+	border:2px;
+	background:#fff;
+	padding: 10px;
+	margin: 7px 7px;
+	margin-top: 2px;
+	width: 340px;
+	color: #000;
+	box-shadow: 1px 1px 1px #D3D3D3;
+}
+button{
+	border:2px;
+	background:#6495ED;
+	padding: 15px;
+	margin: 7px 7px;
+	margin-top: 20px;
+	width: 360px;
+	color: #fff;
+	box-shadow: 1px 1px 1px #87CEEB;
+	cursor: pointer;
+}
+daftar.css
+Menampilkan daftar.css.

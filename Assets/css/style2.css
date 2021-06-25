@@ -1,0 +1,292 @@
+body {
+	padding: 0;
+	margin: 0;
+}
+
+.container {
+	width: 1000px;
+	height: 780px;
+	margin: 0 auto;
+}
+
+.banner {
+	width: 100%;
+	height: 130px;
+	background: #019875;
+}
+
+/* .webicon {
+	width: 10px;
+	height: auto;
+	margin: 40px 10px 0 20px;
+ float: left;
+}*/
+
+*/ .title {
+	margin: 44px 20px 0 0;
+	float: left;
+	font-size: 36px;
+	text-shadow: 1px 3px 5px red;
+	color: #fff;
+}
+
+.text-title {
+	font-size: 15px;
+	color: #fff;
+	text-shadow: none;
+}
+
+.alamat {
+	float: right;
+	margin: 20px;
+	color: #fff;
+}
+
+.content {
+	width: 100%;
+	height: 490px;
+	position: static;
+}
+
+.iklan {
+	font-family: 'Caveat', cursive;
+	font-size: 23px;
+	width: 100%;
+	height: 50px;
+	border-top: 3px solid #080808;
+	border-bottom: 3px solid #060606;
+	float: left;
+	padding: 3px 0;
+	line-height: 40px;
+}
+
+.content-kiri {
+	width: 250px;
+	height: auto;
+	float: left;
+	background: #eee;
+}
+
+.content-kanan {
+	width: 200px;
+	height: 450px;
+	float: left;
+	background: #eee;
+}
+
+.content-tengah {
+	width: 80%;
+	height: auto;
+	float: left;
+	background: #eee;
+}
+
+.isi-content {
+	width: 200px;
+	height: auto;
+	margin: 10px 30px;
+	float: left;
+}
+
+.text-content {
+	text-align: center;
+	margin: 2px 0;
+	color: #019875;
+	font-weight: bold;
+}
+
+.number1 {
+	float: left;
+	border: 1px solid #019875;
+	padding: 10px 20px;
+}
+
+.footer {
+	width: 100%;
+	padding: 0px 0;
+	background: #019875;
+	float: left;
+	text-align: center;
+	color: #fff;
+	margin-top: 30%;
+}
+
+*/ .promo {
+	width: 250px;
+	padding: 10px;
+	height: 170px;
+	border: 1px solid #019875;
+	text-align: center;
+}
+
+.navigation ul {
+	list-style-type: none;
+	margin: 0;
+	margin-left: -40px;
+}
+
+.navigation ul a {
+	text-decoration: none;
+	color: #fff;
+}
+
+.navigation ul li {
+	padding: 5px;
+	background: #019875;
+	border: 1px solid #fff;
+}
+
+.navigation ul li:hover {
+	background: #26A65B;
+}
+
+.navigation li ul {
+	display: none;
+	position: absolute;
+}
+
+.navigation li:hover ul {
+	display: block;
+	width: 200px;
+	margin-top: -25px;
+	margin-left: 155px;
+}
+
+.sub {
+	display: none !important;
+}
+
+.navigation ul li ul li:hover .sub {
+	display: block !important;
+}
+
+.Ctengah {
+	width: 100%;
+	margin: auto;
+}
+
+.posisiLogo {
+	position: relative;
+	top: -35px;
+	height: 100px !important;
+	width: 100px !important;
+}
+
+#posisiCakeShop {
+	position: relative;
+	bottom: 20px;
+	left: 20px;
+}
+
+.promotext {
+	width: 250px;
+	height: auto;
+	border: 1px solid #019875;
+}
+
+button {
+	position: relative;
+	margin: 2px 0;
+	color: #019875;
+	font-weight: bold;
+}
+
+/* 
+img {
+	height: 150px !important;
+	width: 150px !important;
+} */
+
+.col-xs-6 {
+	text-align: center
+}
+
+.productTitle {
+	color: red;
+	text-align: center;
+}
+
+.addToCartBtn {
+	width: 100%;
+	background: #c8beb9;
+	padding: 1rem;
+	color: black;
+	font-weight: 900;
+	cursor: pointer;
+}
+
+.cartImage {
+	margin-top: 3%;
+	margin-left: 10%;
+}
+
+.cartContainer {
+	width: 90%;
+	margin: auto;
+	font-size: 3rem;
+	text-align: center;
+	position: absolute;
+	margin-top: 40% !important;
+	height: auto !important;
+	text-align: center;
+}
+
+.cartContainer img {
+	width: 100px !important;
+	height: 100px !important;
+}
+
+.headingTop {
+	border-top: 1px solid black;
+}
+
+.heading {
+	border-bottom: 1px solid black;
+	text-align: center;
+	margin-left: 10%;
+}
+
+.text {
+	margin-left: 10%;
+	font-size: 0.5em;
+}
+
+.cartTitle {
+	color: red;
+	margin-top: 3rem;
+}
+
+.cartPrice {
+	margin-top: 3rem;
+}
+
+.removeButton {
+	background: Red;
+	cursor: pointer;
+	color: white;
+	margin-top: 3rem;
+	height: 50px !important;
+	padding: 0px;
+	line-height: 50px;
+}
+
+.cartQty {
+	margin-top: 3rem;
+}
+
+.form-control {
+	color: #000;
+	background-color: #e4cece;
+	font-weight: 900;
+	font-size: 3rem;
+	padding: 0rem 1rem;
+}
+
+.totalPrice {
+	margin-top: 4rem;
+	width: 50%;
+	margin: auto;
+	justify-content: center;
+	margin-top: 5%;
+	margin-bottom: 5%;
+}
